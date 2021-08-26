@@ -1,0 +1,20 @@
+CREATE TABLE `posts_table` (
+  `postID` int NOT NULL AUTO_INCREMENT,
+  `postContent` longtext NOT NULL,
+  `postLike` int DEFAULT '0',
+  `postDislike` int DEFAULT '0',
+  `profileID` int NOT NULL,
+  `postTag` longtext NOT NULL,
+  PRIMARY KEY (`postID`),
+  UNIQUE KEY `postID_UNIQUE` (`postID`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+CREATE TABLE `profile_table` (
+  `profileID` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(55) NOT NULL,
+  `password` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `location` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`profileID`),
+  UNIQUE KEY `idprofile_table_UNIQUE` (`profileID`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
