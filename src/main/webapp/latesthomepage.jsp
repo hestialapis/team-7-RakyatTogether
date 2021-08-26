@@ -42,8 +42,8 @@
 	<div class="post-tag"><a href="sortbytag.jsp">${s.getPostTag()}</a></div>
 	<div class="post-content">${s.getPostContent()}</div>
 	<div class="likes">
-        <a class="goodbutton" href="likepost.jsp?id=${s.getId()}">Like</a>${s.getPostLike()}
-        <a class="badbutton" href="dislikepost.jsp?id=${s.getId()}">Dislike</a>${s.getPostDislike()}
+        <a class="goodbutton" href="latestlikepost.jsp?id=${s.getId()}">Like</a>${s.getPostLike()}
+        <a class="badbutton" href="latestdislikepost.jsp?id=${s.getId()}">Dislike</a>${s.getPostDislike()}
       </div>
     </div>
     </div>
