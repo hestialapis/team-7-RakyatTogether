@@ -4,3 +4,11 @@ RakyatTogether website is inspired by our real life experience of trying to read
 
 # MySQL Database
 MySQL has been used and the DDL is provided in the .txt file to execute the queries.
+
+# Contributors
+Team 7 YME Hackathon
+- Teo Hao Jing
+- Jocelyn Neo Hui Lyn
+- Shane Ho Ken Wae
+- Lee Jin Yu
+- Sean Lim Jun Jie
